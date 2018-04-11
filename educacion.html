@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Educacion</title>
+        <meta charset="UTF-8">
+        
+    </head>
+    <body>
+        <header>
+          <svg  width="15" height="15" viewBox="0 0 3 2">
+            <img src="img/LOGO.svg">
+          </svg>
+            <h1>Hoja de Vida</h1>
+        </header>
+
+        <section>
+            <h2>DATOS PERSONALES</h2>
+            <h2>Nombres: </h2>
+            <h3>Daniel Alexander</h3>
+            <h2>Apellido: </h2>
+            <h3>Vera Paredes</h3>
+            <h2>Fecha de Nacimiento: </h2>
+            <h3>21/05/1969</h3>
+            <h2>Lugar de Nacimiento: </h2>
+            <h3>Milagro</h3><br>
+        </section>
+
+        <nav>
+            <ul>
+              <li>
+                  <a href="index.html" >INICIO</a>
+              </li>
+                <li>
+                    <a href="educacion.html" >EDUCACION</a>
+                </li>
+                <li>
+                    <a href="experiencia.html" >EXPERIENCIA</a></li>
+            </ul>
+        </nav>
+
+        <section>
+          <h2>EDUCACION</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Institucion</th>
+                        <th>Lugar</th>
+                        <th>¿Culmino?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1996</td>
+                        <td>ESPOL</td>
+                        <td>Ecuador</td>
+                        <td>si</td>
+                    </tr>
+                    <tr>
+                        <td>2006</td>
+                        <td>ESPOL</td>
+                        <td>Ecuador</td>
+                        <td>si</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>UTEG</td>
+                        <td>Ecuador</td>
+                        <td>si</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Experiencia Laboral</h2>
+            <form class="" action="index.html" method="post">
+                <fieldset>
+                    <legend> Agregar Estudios</legend>
+                    <br>
+                    <label>Año</label>
+                    <select>
+                        <option value="value1">1996</option>
+                        <option value="value2" selected>2005</option>
+                        <option value="value3" selected>2006</option>
+                        <option value="value4">2008</option>
+                        <option value="value5" selected>2010</option>
+                    </select>
+                    <br>
+                    <label>Institucion</label>
+                    <input type="text" maxlength="150" required></input>
+                    <br><br>
+                    <label>Lugar</label>
+                    <textarea name="comentario" maxlength="150"></textarea>
+                    <br><br>
+                    <label>Culmino?</label>
+                    <input type="radio" name="rdio" value="si" checked> Si
+                    <input type="radio" name="rdio" value="no"> No<br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+                <br>
+
+            </form>
+
+
+        </section>
+
+        <footer>
+            <h6>davparedes69@gmail.com | 0992269847 | Ecuador - Guayas - Milagro</h6>
+        </footer>
+    </body>
+</html>
